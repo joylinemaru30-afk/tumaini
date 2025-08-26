@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home page</title>
+    <link rel="stylesheet" href="dist/css/bootstrap.css">
+    <script src="dist/js/bootstrap.js"></script>
+    <style>
+        .carousel-indicators [data-bs-target]{
+            height: 15px;
+            width: 15px;
+            border-radius: 50%;
+        }
+        .mine:hover{
+            transform: scale(1.2);
+            transition: 2s;
+        }
+        img{
+            border-radius: 20px;
+        }
+        img:hover{
+            transform: scale(1.2);
+            transition: 2s;
+        }
+    </style>
+</head>
+<body>
+    <!-- section one starts here -->
+     <h3>One</h3>
+     <section class="row">
+        <div class="col-md-12">
+            <!-- below nav tag carries all the contents of the navbar -->
+             <nav class="navbar navbar-expand-md navbar-light bg-light">
+                <a href="index.html" class="navbar-brand"><b>Tumaini collection</b></a>
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarcontent">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- below div will carry the links for the navbar -->
+                <div class="collapse navbar-collapse" id="navbarcontent">
+                 <div class="navbar-nav">
+                    <a href="index.html" class="nav-link">home</a>
+                    <a href="beddings.html" class="nav-link">Beddings</a>
+                    <a href="#" class="nav-link">Fashion</a>
+
+                 </div>
+
+                </div>
+                <div class="navbar nav ms-auto">
+                    <button class="btn btn-outline-primary me-3 mt-3"
+                    data-bs-toggle="modal"
+                    data-bs-target="#login">
+                    
+                        login
+                    </button>
+                    <button class="btn btn-outline-primary me-3 mt-3"
+                    data-bs-toggle="modal"
+                    data-bs-target="#registrationmodal">
+                        register
+                    </button>
+
+                 </div>
+
+
+             </nav>
+        </div>
+     </section>
+     <!-- secton one ends here -->
+      <!-- section two starts here -->
+       <h3>Two</h3>
+       <section class="row">
+        <div class="col-md-12">
+            <!-- below div contains all the contents of the carousel -->
+             <div class="carousel slide" id="mycarousel" data-bs-ride="carousel">
+                <!-- wrapper starts -->
+                 <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/slide4.jpg" alt="" class="w-100 d-block">
+                        <div class="carousel-caption bg-dark bg-opacity-50 rounded">
+                            <h1 class="text-warning">skin care</h1>
+                            <p class="text-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis eligendi eius alias, ut dignissimos in.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/slide2.jpg" alt="" class="w-100 d-block">
+                        <div class="carousel-caption bg-dark bg-opacity-50 rounded">
+                            <h1 class="text-secondary">furnitures</h1>
+                            <p class="text-warning">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis asperiores eaque voluptates repellat unde illum?</p>
+
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/slide3.jpg" alt="" class="w-100 d-block">
+                        <div class="carousel-caption bg-dark bg-opacity-50 rounded">
+                            <h1 class="text-info">barber</h1>
+                            <p class="text-danger">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi nam debitis fuga cum maxime doloremque.</p>
+
+                        </div>
+
+                    </div>
+                 </div>
+                  <!-- wrapper ends -->
+                   <!-- controller starts here -->
+                    <a href="#mycarousel" data-bs-slide="prev" class="carousel-control-prev">
+                        <span class="carousel-control-prev-icon bg-info"></span>
+                    </a>
+                    <a href="#mycarousel" data-bs-slide="prev" class="carousel-control-next">
+                        <span class="carousel-control-next-icon bg-info"></span>
+                    </a>
+                    <!-- controller ends here -->
+                     <!-- indicators starts here -->
+                      <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#mycarousel" class="bg-dark active myindicators" data-bs-slide-to="0">
+                            <button type="button" data-bs-target="#mycarousel" class="bg-dark myindicators" data-bs-slide-to="1">
+                                <button type="button" data-bs-target="#mycarousel" class="bg-dark myindicators" data-bs-slide-to="2"></button>
+                            
+
+                            
+                        
+                            
+                               
+                        
+                
+                        </button>
+                      </div>
+                      <!-- indicators ends here -->
+             </div>
+        </div>
+
+       </section>
+       
+       <!-- section two ends here -->
+    <!-- section three starts here -->
+     <h3>Three</h3>
+     <section class="row">
+        <div class="col-md-3 p-3">
+            <img src="images/advert.jpg" alt="">
+        </div>
+        <div class="col-md-3 text-center">
+            <img src="images/alionskettle.jpg" alt="" width="250px" height="250px">
+            <h6>alionskettle</h6>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed dolor, quaerat veritatis quo, numquam quam eligendi cum sapiente, ad optio atque amet aliquam nemo! Quasi recusandae consequuntur consectetur rerum saepe.</p>
+
+            <b class="text-warning">kes 2,300</b> <br><br>
+            <span class="badge bg-danger p-3">10% off</span>
+        </div>
+        <div class="col-md-3 text-center">
+            <img src="images/Mika2slicetoaster.png" alt="" width="250px" height="250px">
+            <h4>Mika2slicetoaster</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita reprehenderit dolorum ea temporibus ipsa inventore fuga vitae corrupti ullam repellat laborum nemo, qui labore iste fugiat quod placeat aut explicabo.</p>
+            device-width
+            <b class="text-warning">kes 2,100</b> <br><br>
+            <span class=" badge bg-danger">5% off</span>
+        </div>
+        <div class="col-md-3 text-center">
+            <img src="images/cooker.jpg" alt="" width="250px" height="250px">
+            <h5>pro cooker</h5>
+            <p>Lorem ipsum dolor sit adevice-widthmet consectetur adipisicing elit. Ipsum reiciendis, possimus aperiam natus quibusdam eveniet, ipsam labore dolorum aspernatur laudantium eos. Assumenda explicabo nihil omnis est dolorem laborum, excepturi laboriosam.</p>
+
+
+            <b class="text-warning">kes 3,300</b> <br><br>
+            <span class="badge bg-danger">20% off</span>
+        </div>
+
+     </section> <hr>
+     <!-- section ends here -->
+
+
+      <!-- section four starts here -->
+       <h3>Four</h3>
+       <section class="row">
+       <div class="col-md-6 text-center">
+        <img src="images/advert1.jpg" alt="" height="300px" width="95%">
+       </div>
+
+       <div class="col-md-6 text-center">
+        <img src="images/advert2.jpg" alt="" width="95%" height="300px">
+       </div>
+    </section><br>
+       <!-- section four ends here -->
+
+       <!-- section five starts here -->
+        <h3>five</h3>
+        <h2>Beddings</h2>
+        <section class="row">
+            <div class="col-md-3 text-center">
+                <img src="images/bed1.jpg" alt="" height="250" width="250px" >
+                <h6>Floral Bedding</h6>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi cum nisi obcaecati non.</p>
+                <b class="text-warning">kes 3300</b><br><br>
+                <span class="badge bg-danger">20%off</span>
+            </div>
+            <div class="col-md-3 text-center">
+                <img src="images/bed2.jpg" alt="" height="250px" width="250px">
+                <h6>Duvet Pure White</h6>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit aliquam eum veritatis placeat!</p>
+                <b class="text-warning">kes 2300</b><br><br>
+                <span class="badge bg-danger">20% off</span>
+            </div>
+
+            <div class="col-md-3 text-center">
+                <img src="images/bed3.jpg" alt="" height="250px" width="250px">
+                <h6>Plain Double Sided</h6>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus pariatur accusamus eaque sed!</p>
+                <b class="text-warning">kes 3800</b><br><br>
+                <span class="badge bg-danger">10% off</span>
+            </div>
+            <div class="col-md-3 text-center">
+                <img src="images/bed4.jpeg" alt="" width="250px" height="250px">
+                <h6> Binded Quality</h6>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat sapiente aliquam dicta obcaecati.</p>
+                <b class="text-warning">kes 5300</b><br><br>
+                <span class="badge bg-danger">30% off</span>
+            </div>
+
+        </section><hr>
+
+        <!-- section five ends here -->
+
+        <!-- section six starts here -->
+        <h3>six</h3>
+        <h2>smartphones</h2>
+        <section class="row text-center">
+            <div class="col-md-4 p-3">
+                <div class="card shadow text-center mine">
+                    <div class="card-header">
+                        <h6>Google pixel 6.5g</h6>
+                    </div>
+                    <div class="card-body">
+                    <img src="images/phone1.jpg" alt="" width="80%" height="450px">
+                    </div>
+                    <div class="card-footer">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, odit amet enim commodi nobis quia fuga ad unde quidem nesciunt!</p>
+                        <b class="text-warning">kes 13000</b><br><br>
+                        <span class=" badge bg-danger p-2">10% off</span>
+                    </div>
+
+                </div>
+                
+
+            </div>
+            <div class="col-md-4 p-3">
+                <div class="card shadow text-center mine">
+                    <div class="card-header">
+                        <h6>Tecno pop 7,6.6 inch</h6>
+                    </div>
+                    <div class="body">
+                        <img src="images/phone2.jpg" alt="" width="80%" height="450px">
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum natus voluptates, incidunt reprehenderit totam consequatur quo ratione debitis voluptatem! Inventore?</p>
+                <b class="text-warning">kes 23999</b><br><br>
+                <span class="badge bg-danger">15% off</span>
+            </div>
+            </div>
+            <div class="col-md-4 p-3">
+                <div class="card shadow text-center mine">
+                    <div class="card-header">
+                        <h6>Itel A18, 5.0 inch</h6>
+                    </div>
+                        
+                        <div class="card-body">
+                            <img src="images/phone3.jpg" alt="" width="80%" height="450px">
+                        </div>
+                        
+                        <div class="card-footer">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint beatae nostrum assumenda voluptas temporibus, et necessitatibus nemo velit eligendi exercitationem.</p>
+                            <b class="text-warning"> kes 33000</b> <br><br>
+                            <span class="badge bg-danger">25% off</span>
+                        </div>
+
+                    
+
+                </div>
+            </div><section class="row bg-warning p-4">
+                <div class="col-md-4 text-white">
+                    <h3 class="text-center">About us</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae voluptate odio fugiat molestias quas nisi inventore quia porro autem saepe doloribus, recusandae facilis excepturi eum quidem delectus officiis deserunt ex praesentium commodi. Aut, laudantium pariatur!</p>
+    
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt neque totam quidem similique recusandae! Non, minima! Iusto itaque, nobis optio provident eligendi doloribus aliquid! Vel quasi, dolorem iste velit commodi ipsum repellat suscipit maiores eos, amet nulla tempore a ut voluptatum, quae nobis fugit alias!</p>
+                </div>
+                <div class="col-md-4">
+                    <h3 class="text-center text-white">Contact us</h3>
+                    <form>
+                        <input type="email" placeholder="Enter the Emailaddress" class="form-control" ><br><br>
+    
+                        <textarea placeholder="Leave Comment" cols="45" rows="5" class="form-control"></textarea> <br><br>
+    
+                        <input type="submit" value="send message" class="btn btn-outline-danger">
+    
+    
+                    </f<section class="row bg-warning p-4">
+                        <div class="col-md-4 text-white">
+                            <h3 class="text-center">About us</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae voluptate odio fugiat molestias quas nisi inventore quia porro autem saepe doloribus, recusandae facilis excepturi eum quidem delectus officiis deserunt ex praesentium commodi. Aut, laudantium pariatur!</p>
+            
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt neque totam quidem similique recusandae! Non, minima! Iusto itaque, nobis optio provident eligendi doloribus aliquid! Vel quasi, dolorem iste velit commodi ipsum repellat suscipit maiores eos, amet nulla tempore a ut voluptatum, quae nobis fugit alias!</p>
+                        </div>
+                        <div class="col-md-4">
+                            <h3 class="text-center text-white">Contact us</h3>
+                            <form>
+                                <input type="email" placeholder="Enter the Emailaddress" class="form-control" ><br><br>
+            
+                                <textarea placeholder="Leave Comment" cols="45" rows="5" class="form-control"></textarea> <br><br>
+            
+                                <input type="submit" value="send message" class="btn btn-outline-danger">
+            
+            
+                            </form>
+                        </div>
+                        <div class="col-md-4">
+                            <section class="row bg-warning p-4">
+                                <div class="col-md-4 text-white">
+                                    <h3 class="text-center">About us</h3>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae voluptate odio fugiat molestias quas nisi inventore quia porro autem saepe doloribus, recusandae facilis excepturi eum quidem delectus officiis deserunt ex praesentium commodi. Aut, laudantium pariatur!</p>
+                    
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt neque totam quidem similique recusandae! Non, minima! Iusto itaque, nobis optio provident eligendi doloribus aliquid! Vel quasi, dolorem iste velit commodi ipsum repellat suscipit maiores eos, amet nulla tempore a ut voluptatum, quae nobis fugit alias!</p>
+                                </div>
+                                <div class="col-md-4">
+                                    <h3 class="text-center text-white">Contact us</h3>
+                                    <form>
+                                        <input type="email" placeholder="Enter the Emailaddress" class="form-control" ><br><br>
+                    
+                                        <textarea placeholder="Leave Comment" cols="45" rows="5" class="form-control"></textarea> <br><br>
+                    
+                                        <input type="submit" value="send message" class="btn btn-outline-danger">
+                    
+                    
+                                    </form>
+                                </div>
+                                <div class="col-md-4">
+                                    <h3 class="text-center text-white">Stay Connected</h3>
+                                    <img src="images/fb.png" alt="" width="100px">
+                                    <img src="images/x.png" alt="" width="100px">
+                                    <img src="images/in.png" alt="" width="100px">
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur quae numquam dolor, quas iusto quod labore commodi dolore? Et incidunt labore autem nesciunt natus in quisquam excepturi laudantium iusto eligendi illo, officia illum accusamus deleniti aliquid nihil cum sit vero.</p>
+                                </div>
+                              </section>     <h3 class="text-center text-white">Stay Connected</h3>
+                            <img src="images/fb.png" alt="" width="100px">
+                            <img src="images/x.png" alt="" width="100px">
+                            <img src="images/in.png" alt="" width="100px">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur quae numquam dolor, quas iusto quod labore commodi dolore? Et incidunt labore autem nesciunt natus in quisquam excepturi laudantium iusto eligendi illo, officia illum accusamus deleniti aliquid nihil cum sit vero.</p>
+                        </div>
+                      </section>orm>
+                </div>
+                <div class="col-md-4">
+                    <h3 class="text-center text-white">Stay Connected</h3>
+                    <img src="images/fb.png" alt="" width="100px">
+                    <img src="images/x.png" alt="" width="100px">
+                    <img src="images/in.png" alt="" width="100px">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur quae numquam dolor, quas iusto quod labore commodi dolore? Et incidunt labore autem nesciunt natus in quisquam excepturi laudantium iusto eligendi illo, officia illum accusamus deleniti aliquid nihil cum sit vero.</p>
+                </div>
+              </section>
+        
+        </section> <br><br>
+         <!-- section six ends here -->
+          <!-- accordion section (FAQ)starts here -->
+           <section class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <div class="card shadow p4">
+                    <h3 class="text-center text-success">FAQS</h3>
+                    <div class="accordion" id="Faqs">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button type="button" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#content1" aria-expanded="true" aria-controls="content1"
+            >
+        heading one</button>
+                            </h2>
+                            <div id="content1" class="accordion-collapse collapse" data-bs-parent="#faqs">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod provident ut asperiores autem eos in eius dicta non recusandae tempora temporibus, voluptatem molestias culpa dolorem. Facilis velit quasi, corrupti necessitatibus sed assumenda dolor sequi odio.</p>
+                            </div>
+                        </div>
+                        <!-- second heading -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button type="button" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#content2" aria-expanded="true" aria-controls="content2"
+                                
+            >
+        heading one</button>
+                            </h2>
+                            <div id="content2" class="accordion-collapse collapse" data-bs-parent="#faqs">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod provident ut asperiores autem eos in eius dicta non recusandae tempora temporibus, voluptatem molestias culpa dolorem. Facilis velit quasi, corrupti necessitatibus sed assumenda dolor sequi odio.</p>
+                            </div>
+                            <!-- third heading -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button type="button" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#content3" aria-expanded="true" aria-controls="content3"
+                >
+            heading one</button>
+                                </h2>
+                                <div id="content3" class="accordion-collapse collapse" data-bs-parent="#faqs">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod provident ut asperiores autem eos in eius dicta non recusandae tempora temporibus, voluptatem molestias culpa dolorem. Facilis velit quasi, corrupti necessitatibus sed assumenda dolor sequi odio.</p>
+                                </div>
+                            </div>
+                            <!-- fourth heading -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button type="button" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#content4" aria-expanded="true" aria-controls="content4"
+                >
+            heading one</button>
+                                </h2>
+                                <div id="content4" class="accordion-collapse collapse" data-bs-parent="#faqs">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod provident ut asperiores autem eos in eius dicta non recusandae tempora temporibus, voluptatem molestias culpa dolorem. Facilis velit quasi, corrupti necessitatibus sed assumenda dolor sequi odio.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2"></div>
+        
+           </section>
+           <!-- accordion section(FAQ)ends here -->
+
+         <!-- section seven starts here -->
+          <h3>Seven</h3>close"
+          data-bs-dismiss="modal">
+
+          </button>
+      </div>
+  </div>
+          <section class="row bg-warning p-4">
+            <div class="col-md-4 text-white">
+                <h3 class="text-center">About us</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae voluptate odio fugiat molestias quas nisi inventore quia porro autem saepe doloribus, recusandae facilis excepturi eum quidem delectus officiis deserunt ex praesentium commodi. Aut, laudantium pariatur!</p>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt neque totam quidem similique recusandae! Non, minima! Iusto itaque, nobis optio provident eligendi doloribus aliquid! Vel quasi, dolorem iste velit commodi ipsum repellat suscipit maiores eos, amet nulla tempore a ut voluptatum, quae nobis fugit alias!</p>
+            </div>
+            <div class="col-md-4">
+                <h3 class="text-center text-white">Contact us</h3>
+                <form>
+                    <input type="email" placeholder="Enter the Emailaddress" class="form-control" ><br><br>
+
+                    <textarea placeholder="Leave Comment" cols="45" rows="5" class="form-control"></textarea> <br><br>
+
+                    <input type="submit" value="send message" class="btn btn-outline-danger">
+
+
+                </form>
+            </div>
+            <div class="col-md-4">
+                <h3 class="text-center text-white">Stay Connected</h3>
+                <img src="images/fb.png" alt="" width="100px">
+                <img src="images/x.png" alt="" width="100px">
+                <img src="images/in.png" alt="" width="100px">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur quae numquam dolor, quas iusto quod labore commodi dolore? Et incidunt labore autem nesciunt natus in quisquam excepturi laudantium iusto eligendi illo, officia illum accusamus deleniti aliquid nihil cum sit vero.</p>
+            </div>
+          </section>
+          <footer class="text-white text-center p-2 bg-dark">
+           <h5> Developed by Joy &copy; copyright 2025. All rights reserved</h5>
+
+          </footer>
+
+          <!-- section seven ends here -->
+  
+         <!-- regestration modal starts here -->
+           <div class="modal fade" id="registrationmodal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="text-info"> Enter details below</h3>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <label>Full Name:</label><br>
+                            <input type="text" placeholder="Enter the name here" class="form-control">
+
+                            <label>Email:</label><br>
+                            <input type="text" placeholder="Enter the email here" class="form-control">
+
+                            <label>password:</label><br>
+                            <input type="number" placeholder="Enter password here" class="form-control">
+
+                            <label> confirm password</label><br>
+                            <input type="number" placeholder="Re-enter your password" class="form-control">
+
+                            <label>Age:</label><br>
+                            <input type="text" placeholder="Enter your age here" class="form-control">
+
+                            <label>Address</label><br>
+                            <input type="text" placeholder="Enter your address here" class="form-control"><br><br>
+                            <div class="text-center">
+                                <input type="button" value="Register" class="btn btn-success text-center">
+                            </div>
+
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal">
+
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- regestration modal ends here -->
+
+         <!-- login modal starts here -->
+          <div class="modal fade" id="login">
+            <div class="modal-dialog">
+                <div class=" modal-content">
+                    <div class="modal-header">
+                        <h3>Enter details below</h3>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <label> password:</label><br>
+          <input type="number" placeholder="Enter password here" class="form-control">
+
+
+          <label> Email </label><br>
+          <input type="text" placeholder="Enter your Email here" class="form-control">
+
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" 
+                        class="btn-close"
+                        data-bs-dismiss="modal">
+                        <div class="text-center">
+                            <input type="text" value="login" class="btn btn-success text-center">
+                        </div>
+            
+            
+                            
+                        </button>
+            
+                      </div>
+
+                </div>
+                
+            </div>
+            
+          </div>
+
+          
+
+          
+          
+          
+
+          
+          
+          <!-- login modal ends here -->
+          
+          
+    
+</body>
+</html>
